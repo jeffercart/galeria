@@ -59,7 +59,7 @@ function draw() {
   drawScene();
   firstPerson(cam1);
       
-  if (frameCount > 600) {
+  if (frameCount > 250) {
     if      (pagina == 1){
                 window.open("https://jeffercart.github.io/cubos/", "_top");} //cubos
     else if (pagina == 2){
